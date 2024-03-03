@@ -16,6 +16,7 @@ if IsControlJustPressed(0, 174) then
 end
     end
 end)
+print('Hallo')
 
 Citizen.CreateThread(function()
     while true do
