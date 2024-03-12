@@ -1,7 +1,7 @@
-RegisterCommand("BlinkerLinks", function(source, args, rawCommand)
-    vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
-    SetVehicleIndicatorLights(vehicle, 1, true)
-end)
+--RegisterCommand("BlinkerLinks", function(source, args, rawCommand)
+--    vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
+--    SetVehicleIndicatorLights(vehicle, 1, true)
+--end)
 
 Citizen.CreateThread(function()
     while true do
